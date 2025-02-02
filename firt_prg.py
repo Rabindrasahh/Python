@@ -1,5 +1,20 @@
 # print("Hello from the file python")
-# # Area of a rectangle
+# type conversion
+# num1=39
+# num2=45.78
+# add = num1+num2
+# print("The sum of the two numbers is", add)
+# print("The type of the number is",type(add))
+#Addition of the string and int
+# num1=45
+# num2='45'
+# sum = num1+int(num2)
+# print("The sum of the two numbers is", sum)
+#Output formatting
+
+#Traceback (most recent call last):
+ # Area of a rectangle
+
 # length = 10
 # width = 5
 # area = length * width
@@ -44,7 +59,47 @@
 #     total=total+i
 #     print("The total of the expenses is", total)    
 #print the sum of the first 10 numbers
-total=0
-for i in range(1,11):
-    total=total+i
-    print("The total of the first 10 numbers is", total)
+# total=0
+# for i in range(1,11):
+#     total=total+i
+#     print("The total of the first 10 numbers is", total)
+
+# check whether the number is neagative or non negative
+# num =int(input("Enter a number: "))
+# if num>0:
+#     print("The given number is non negative")
+# else:
+#     print("The given number is negative")
+# iterate from i = 0 to 3
+# for _ in range(0, 4):
+#     print('Hi')
+    #Python while Loop
+# number = 1
+# while number <= 3:
+#     print(number)
+#     number = number + 1
+
+# Print numbers until the user enters 0
+# number = int(input('Enter a number: '))
+
+# # iterate until the user enters 0
+# while number != 0:
+#     print(f'You entered {number}.')
+#     number = int(input('Enter a number: '))
+
+# print('The end.')
+# age = 32
+
+# # The test condition is always True
+# while age > 18:
+#     print('You can vote')
+# for i in range(5):
+#     if i == 3:
+#         continue
+#     print(i)
+# n = 10
+# # use pass inside if statement
+# if n > 10:
+#     print("THe hello world")
+#     pass
+# print('Hello')
