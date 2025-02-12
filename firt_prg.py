@@ -151,7 +151,7 @@ import shutil
 # print(math.pi)
 # print(__name__)
 # def main():
-#     print("Hello World")
+#     print("Hello World") 
 
 # if __name__=="__main__":
 #     main()
@@ -304,3 +304,15 @@ image = Image.open("C&C Desktop.png")
 image_array = np.array(image)
 print("Image shape:", image_array.shape)
 print(np.__version__)
+
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
+
+for x in arr:
+  print("x represents the 2-D array:")
+  print(x)
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.distplot([0, 1, 2, 3, 4, 5])
+
+plt.show()
